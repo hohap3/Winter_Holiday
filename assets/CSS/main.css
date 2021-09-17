@@ -1097,11 +1097,16 @@
 }
 
 .footer-body-input-container {
-  height: 50px;
-  width: 100%;
   margin:6px 0;
   display: flex;
+  flex-direction: column;
+}
+
+.footer-body-input-group {
+  display: flex;
   align-items: center;
+  height: 50px;
+  width: 100%;
   background-color: var(--input-color);
 }
 
@@ -1182,4 +1187,13 @@
 
 .footer-body-link-img:hover {
   transform: scale(1.02);
+}
+
+.form-error-message {
+  display: block;
+  margin:2px 0;
+  color:red;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-weight: 400;
 }
