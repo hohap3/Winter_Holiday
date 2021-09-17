@@ -987,7 +987,7 @@
   transition: transform linear 0.8s;
 }
 
-.event-content-third-img:hover {
+.event-content-third-link:hover .event-content-third-img {
   transform: scale(1.04);
 }
 
