@@ -1,0 +1,120 @@
+/* Global variable */
+:root {
+  --black-color:#000;
+  --light-black-color:#212121;
+  --text-color:#333;
+  --white-color:#fff;
+  --aqua-color:#3fd0d4;
+  --input-color:#595959;
+  --header-height:80px;
+  --header-tools-search-header-height:24px;
+  --header-tools-with-search-height:64px;
+  --header-tools-search-height:calc(var(--header-tools-search-height) - var(--header-tools-search-header-height));
+}
+
+/* Setting all */
+
+.app {
+  overflow: hidden;
+}
+
+
+ul {
+  padding-left: 0;
+}
+
+* {
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: inherit;
+}
+
+/* Setting html */
+
+*::selection {
+  background-color: var(--aqua-color);
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+/* Animations */
+
+
+
+
+@keyframes slideDown {
+  from {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes dropDown {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes imageZoomIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.12);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes textShowUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
