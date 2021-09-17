@@ -50,7 +50,7 @@ function Validator(options) {
       
       options.rules.forEach((rule) => {
         var inputElement = $(rule.selector);
-        var isValid = Validate(inputElement,rule);
+        Validate(inputElement,rule);
       })
 
     })
