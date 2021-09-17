@@ -95,7 +95,6 @@ function run() {
     const sliderActionDetails = $$('.slider-action-details');
     const sliderActionContainers = $$('.slider-action-container');
 
-    console.log(sliderActionContainers);
 
     dots.forEach((dot) => {
       dot.onclick = function() {
