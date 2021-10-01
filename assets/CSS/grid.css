@@ -86,7 +86,7 @@
 }
 
 /* For tablet */
-@media only screen and(min-width:740px) {
+@media only screen and (min-width:740px) {
 
   .row {
     margin:0 -8px;
@@ -94,6 +94,14 @@
 
   .col {
     padding: 0 8px;
+  }
+
+  .row.no-gutter {
+    margin: 0;
+  }
+
+  .row.no-gutter .col {
+    padding: 0;
   }
 
   .m-1,

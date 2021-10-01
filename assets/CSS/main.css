@@ -11,7 +11,7 @@
   top:0;
   right:0;
   left:0;
-  z-index: 1;
+  z-index: 99;
 }
 
 /* Header logo */
@@ -924,10 +924,10 @@
 /* User visit container */
 .user-visit-container {
   position: relative;
-  height: 246px;
   background-color: #3ab8bd;
   top:-2px;
   overflow: hidden;
+  padding:72px 0;
 }
 
 .user-visit-content {
@@ -1010,6 +1010,7 @@
   padding:0 36px;
   position: relative;
   border-radius: 100%;
+  margin-bottom: 38px;
 }
 
 .event-content-third-favorite {
